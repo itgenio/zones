@@ -58,8 +58,8 @@ function addPackageFiles(api) {
   ], 'client');
 
   api.use('underscore', 'client');
-  api.use('ui', 'client');
-  api.use('templating', 'client');
+  api.use('ui@1.0.13', 'client');
+  api.use('templating@1.0.9', 'client');
   api.use('deps', 'client');
   api.use('session', 'client');
   api.use('livedata', 'client');
