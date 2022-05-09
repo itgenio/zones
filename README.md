@@ -9,7 +9,7 @@ As a result of that, error tracking can be improved and it can be used to captur
 
 ### Installation
     
-    meteor add meteorhacks:zones
+    meteor add itgenio:zones
 
     // for older Meteor version
     mrt add zones

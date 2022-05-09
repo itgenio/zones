@@ -244,6 +244,6 @@ Stacktrace.prototype.get = function() {
 };
 
 Stacktrace.prototype.stackFramesFilter = function(line) {
-  var filterRegExp = /\/packages\/(meteorhacks_zones|zones|local-test_meteorhacks_zones)\/assets\/|^Error$/;
+  var filterRegExp = /\/packages\/(itgenio_zones|zones|local-test_itgenio_zones)\/assets\/|^Error$/;
   return !line.match(filterRegExp);
 };

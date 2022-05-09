@@ -4,7 +4,7 @@ var path = Npm.require('path');
 Package.describe({
   name: 'itgenio:zones',
   summary: 'Zone.Js integration for meteor',
-  version: "1.6.0",
+  version: "1.6.1",
   git: "https://github.com/itgenio/zones.git"
 });
 

@@ -11,9 +11,9 @@ if(Package['inject-initial']) {
   // this is a trick to idnentify the test environment
   // need to set this env var before running tests
   if(process.env['METEOR_ENV'] == 'test') {
-    var packageName = 'local-test_meteorhacks_zones';
+    var packageName = 'local-test_itgenio_zones';
   } else {
-    var packageName = 'meteorhacks_zones';
+    var packageName = 'itgenio_zones';
   }
 }
 
