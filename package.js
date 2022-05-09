@@ -2,10 +2,10 @@ var fs = Npm.require('fs');
 var path = Npm.require('path');
 
 Package.describe({
-  name: 'meteorhacks:zones',
+  name: 'itgenio:zones',
   summary: 'Zone.Js integration for meteor',
   version: "1.6.0",
-  git: "https://github.com/meteorhacks/zones.git"
+  git: "https://github.com/itgenio/zones.git"
 });
 
 Package.onUse(function (api) {
@@ -39,12 +39,8 @@ Package.onTest(function (api) {
 });
 
 function addPackageFiles(api) {
-  if(api.versionsFrom) {
-    api.versionsFrom('METEOR@0.9.2.1');
-    api.use('meteorhacks:inject-initial@1.0.0', ['server']);
-  } else {
-    api.use('inject-initial');
-  }
+  api.versionsFrom('METEOR@2.0');
+  api.use('meteorhacks:inject-initial@1.0.0', ['server']);
 
   api.addAssets([
     'assets/utils.js',
